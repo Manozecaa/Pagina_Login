@@ -109,3 +109,23 @@ label{
     margin-top: 10px;
     cursor: pointer;
 }
+
+.erro-geral{
+    background: #c82a2a;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.erro-input{
+    border : 1px solid #c82a2a ;
+}
+
+.erro{
+    color: #c82a2a;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

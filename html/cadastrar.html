@@ -6,26 +6,34 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="/Pagina_Login/css/style.css" rel="stylesheet">
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Cadastrar</title>
 </head>
 <body>
     <form>
-        <h2>Cadastrar</h2>
-        <div class="input-group">
+        <h1>Cadastrar</h1>
+        <div class="erro-geral animate__animated animate__bounce">
+            Aqui vai o erro para o usuario
+        </div>
+        <div class="input-group ">
             <img class="input-icon" src="../icons/nome.png" >
-            <input type="text" placeholder="Nome Completo">
+            <input class="erro-input" type="text" placeholder="Nome Completo">
+            <div class="erro">Por favor informe o nome valido</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="../icons/email.png">
-            <input type="email" placeholder="Seu melhor email">
+            <input class="erro-input" type="email" placeholder="Seu melhor email">
+            <div class="erro">Por favor informe um email valido</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="../icons/password.png">
-            <input type="password" placeholder="Digite uma senha de 6 digitos">
+            <input class="erro-input" type="password" placeholder="Digite uma senha de 6 digitos">
+            <div class="erro">Por favor informe uma senha maior que 6 digitos</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="../icons/confirm-senha.png">
-            <input type="password" placeholder="Confirme sua Senha">
+            <input class="erro-input" type="password" placeholder="Confirme sua Senha">
+            <div class="erro">As senhas não são iguais</div>
         </div>
 
         <div class="input-group">
